@@ -1,0 +1,15 @@
+this is after 100 seconds >>>>>> mohsen@mohsen:~/D/AI/Vacancy/Important Task/Electro_Pi/electro_pi_ai_test/section_1_livekit$ python3 mock_test.py
+============================================================
+LIVEKIT AGENT SIMULATION LOG (STT/TTS Mocked)
+============================================================
+
+[STT Input - Mocked]: 'Where is my order ORD-123?'
+[LLM Action]: Decided to call tool 'get_order_status'
+[LLM Arguments]: {'order_id': 'ORD-123'}
+[Tool Execution Result]: Order ORD-123 is currently out for delivery. Estimated arrival: 15 minutes.
+
+[LLM Final Answer]: Your order ORD-123 is currently out for delivery. It's expected to arrive in approximately 15 minutes.
+[TTS Output - Mocked]: 'Your order ORD-123 is currently out for delivery. It's expected to arrive in approximately 15 minutes.'
+
+============================================================
+SIMULATION COMPLETE
