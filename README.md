@@ -1,5 +1,4 @@
 
-```markdown
 # Electro Pi — AI Engineer Technical Test Submission
 
 **Candidate:** Mohsen Mostafa
