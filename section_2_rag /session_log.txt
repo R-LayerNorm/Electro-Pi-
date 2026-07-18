@@ -1,0 +1,42 @@
+it take 2 minutes exactly >>>>>>>>> mohsen@mohsen:~/D/AI/Vacancy/Important Task/Electro_Pi/electro_pi_ai_test/section_2_rag$ python3 main.py
+/home/mohsen/D/AI/Vacancy/Important Task/Electro_Pi/electro_pi_ai_test/section_2_rag/main.py:3: DeprecationWarning: `langchain-community` is being sunset and is no longer actively maintained. See https://github.com/langchain-ai/langchain-community/issues/674 for details and migration guidance toward standalone integration packages.
+  from langchain_community.document_loaders import DirectoryLoader, TextLoader
+Loading documents...
+Chunking documents...
+Embedding and storing in FAISS...
+Connecting to local LLM via llama.cpp...
+
+==================================================
+RUNNING RAG PIPELINE TESTS
+==================================================
+
+Q: How many days of vacation do I get?
+--- RETRIEVED CONTEXT ---
+# Electro Pi - Vacation Policy
+Employees at Electro Pi are entitled to 21 days of paid annual leave per year. 
+Leave must be requested at least 2 weeks in advance through the HR portal.
+# Electro Pi - Remote Work Guidelines
+Electro Pi allows employees to work remotely up to 3 days a week.
+--------------------------
+A: 21 days
+
+Q: What are the internet speed requirements for remote work?
+--- RETRIEVED CONTEXT ---
+To work remotely, employees must ensure they have a stable internet connection of at least 20 Mbps. 
+Remote workers must be available on Slack during core hours: 10:00 AM to 3:00 PM Cairo time.
+# Electro Pi - Remote Work Guidelines
+Electro Pi allows employees to work remotely up to 3 days a week.
+--------------------------
+A: 20 Mbps
+
+Q: Can I get a refund for a mechanical keyboard with the hardware stipend?
+--- RETRIEVED CONTEXT ---
+To claim the stipend, the employee must submit the original receipt to the finance department within 30 days of purchase. The equipment remains company property for the first year.
+# Electro Pi - AI Hardware Stipend
+Mid-level AI Engineers at Electro Pi receive a one-time hardware stipend of 15,000 EGP. 
+This can be used for laptops, GPUs, or monitors.
+--------------------------
+A: I do not have enough information to answer this question.
+
+==================================================
+Test complete.
