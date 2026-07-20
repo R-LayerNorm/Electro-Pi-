@@ -1,0 +1,22 @@
+# Section 2: RAG Pipeline
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-openai>=0.2.0
+faiss-cpu>=1.7.0
+sentence-transformers>=3.0.0
+
+# Section 1: LiveKit Agents
+livekit>=0.17.0
+livekit-agents>=0.9.0
+
+# Section 4: Deployment
+fastapi>=0.115.0
+uvicorn>=0.30.0
+requests>=2.31.0
+
+# Note on llama-cpp-python:
+# Section 4 uses llama-cpp-python, but it is installed inside the 
+# Dockerfile using a pre-compiled CPU wheel to avoid C++ build errors.
+# If installing locally outside Docker, run:
+# pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
